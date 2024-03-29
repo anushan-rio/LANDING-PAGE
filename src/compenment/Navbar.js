@@ -1,6 +1,10 @@
 import React from "react"
 import Button from "./Button"
 import { GiFoodTruck } from "react-icons/gi";
+import { FaShoppingCart } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
+
+
 import  "../Stylecss/Navbar.css"
 import background from "../img/cooking-food.jpg"
 import { auto } from "async";
@@ -18,6 +22,8 @@ const Navbar=()=>{
                             <li><a href="MENU">MENU</a></li>
                             <li><a href="ABOUT">ABOUT</a></li>
                             <li><a href="SHOP">SHOP</a></li>
+                            <li><FaShoppingCart /></li>
+                            <li><FaSearch /></li>
                         </ul>
                     </div>
                     <div>
